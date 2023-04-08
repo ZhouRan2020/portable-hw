@@ -1,0 +1,9 @@
+add_library(mymath
+	STATIC
+	./src/plusone.cpp
+)
+target_include_directories(mymath
+	PUBLIC
+	./src/include
+	./src/include
+)

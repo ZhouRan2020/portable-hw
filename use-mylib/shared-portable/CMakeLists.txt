@@ -1,0 +1,9 @@
+add_library(mymathdll
+	SHARED
+	./src/plusonedll.cpp
+)
+target_include_directories(mymathdll
+	PUBLIC
+	./src/include
+	./src/include
+)
